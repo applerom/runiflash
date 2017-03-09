@@ -6,7 +6,7 @@ Implementation
 
 Uses Flash, GenFlash, Tools;
 
-Function EONIdChip( DevId : Byte; Var CInfo : ChipInfo ) : Boolean; Far;
+Function EONIdChip( DevId : Word{alexx}; Var CInfo : ChipInfo ) : Boolean; Far;
 Begin
  EONIdChip := False;
  With CInfo do

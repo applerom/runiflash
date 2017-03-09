@@ -6,7 +6,7 @@ Implementation
 
 Uses Flash, GenFlash, Tools;
 
-Function HyundaiIdChip( DevId : Byte; Var CInfo : ChipInfo ) : Boolean; Far;
+Function HyundaiIdChip( DevId : Word{alexx}; Var CInfo : ChipInfo ) : Boolean; Far;
 Begin
  HyundaiIdChip := False;
  With CInfo do

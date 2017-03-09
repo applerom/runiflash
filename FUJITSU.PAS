@@ -5,7 +5,7 @@ Implementation
 
 Uses Flash, GenFlash, Tools;
 
-Function FujitsuIdChip( DevId : Byte; Var CInfo : ChipInfo ) : Boolean; Far;
+Function FujitsuIdChip( DevId : Word{alexx}; Var CInfo : ChipInfo ) : Boolean; Far;
 Begin
  FujitsuIdChip := False;
  With CInfo do
